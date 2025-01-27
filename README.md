@@ -1,0 +1,3 @@
+# Haskell Factorial Bug
+
+This repository demonstrates a common error in recursive Haskell functions: the lack of handling for negative input values. The `factorialBug.hs` file contains a function that calculates the factorial recursively, but without proper checks for negative inputs, it leads to a stack overflow. The solution, provided in `factorialSolution.hs`, addresses this by explicitly handling negative input values.
